@@ -1,0 +1,23 @@
+== Kafka playground
+
+Includes:
+
+* Zookeeper
+* Kafka
+* Kafka control center
+* Kafka schema registry
+* kafka connect
+* Hermes
+
+== Resource usage
+My docker VM ran out of it's 2GB of memory running this stack at some point (without error), I increased it to 4GB.
+
+== usage
+Launch everything:
+----
+docker compose up -d
+----
+
+== available web interfaces
+Kafka control center: http://localhost:9021/ +
+Hermes management: http://localhost:8090/ui/index.html#
