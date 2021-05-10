@@ -45,6 +45,9 @@ audit.enabled: false
 topicOwnerCache:
   refreshRateInSeconds: 300 # 5 minutes
 
+topic:
+  allowRemoval: true
+
 subscriptionOwnerCache:
   refreshRateInSeconds: 300
 
