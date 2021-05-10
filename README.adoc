@@ -9,15 +9,15 @@ Includes:
 * kafka connect
 * Hermes
 
-== Resource usage
+== resources
 My docker VM ran out of it's 2GB of memory running this stack at some point (without error), I increased it to 4GB.
 
-== usage
-Launch everything:
+== launch
 ----
 docker compose up -d
 ----
 
-== available web interfaces
+== connect
 Kafka control center: http://localhost:9021/ +
 Hermes management: http://localhost:8090/ui/index.html#
+ksqlDB: `docker exec -it ksqldb ksql http://ksqldb:8088`
