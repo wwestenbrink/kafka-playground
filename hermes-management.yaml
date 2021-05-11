@@ -55,6 +55,7 @@ schema.repository:
   type: schema_registry
   serverUrl: http://schema-registry:8081
   validationEnabled: true
+  subjectSuffixEnabled: true
 
 console:
   configurationLocation: console/config-local.json
